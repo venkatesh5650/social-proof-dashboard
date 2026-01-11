@@ -1,0 +1,46 @@
+:root {
+  --bg-grad-1: #fff0dc;
+  --bg-grad-2: #ffe6c7;
+  --accent: #ff7a00;
+  --text-main: #1f2937;
+  --text-soft: #6b7280;
+ 
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  background: linear-gradient(135deg, var(--bg-grad-1), var(--bg-grad-2));
+  color: var(--text-main);
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 20px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.filters-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .filters-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+}
