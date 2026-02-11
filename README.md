@@ -93,8 +93,8 @@ This creates an optimized production-ready build in the build/ folder.
 
 ## 🌐 Live Demo
 
-👉 Live Application: [(Add your deployed link here)(https://social-proof-dashboard.vercel.app/)
-👉 GitHub Repository: [(Current repository)](https://github.com/venkatesh5650/social-proof-dashboard)
+- 👉 Live Application: (https://social-proof-dashboard.vercel.app/)
+- 👉 GitHub Repository: (https://github.com/venkatesh5650/social-proof-dashboard)
 
 
 ## 🎯 What This Project Demonstrates
